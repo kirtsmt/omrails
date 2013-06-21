@@ -1,9 +1,8 @@
-/* Font 
-$baseFontFamily: Averia+Libre;
+/* Font */
+$baseFontFamily: Averia Libre;
 @import url(http://fonts.googleapis.com/css?family=Averia+Libre);
 
 /* navbar colors */
-
 $btnPrimaryBackground: #66CCFF;
 $navbarBackgroundHighlight: #66CCFF;
 $navbarBackground: #66CCFF;
@@ -17,12 +16,12 @@ body {
 
 @import 'bootstrap-responsive';
 
-/* to remove shadow below navbar 
+/* to remove shadow below navbar */
 .navbar-inner {
 	@include box-shadow(none !important);
 	border: 0;
 }
-*/
+
 
 /* padding between body and footer */
 .footer {
