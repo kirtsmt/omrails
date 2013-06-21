@@ -1,0 +1,35 @@
+/* Font 
+$baseFontFamily: Averia+Libre;
+@import url(http://fonts.googleapis.com/css?family=Averia+Libre);
+
+/* navbar colors */
+
+$btnPrimaryBackground: #66CCFF;
+$navbarBackgroundHighlight: #66CCFF;
+$navbarBackground: #66CCFF;
+
+@import 'bootstrap';
+
+/* padding between body and top of page(room for nav bar) */
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+/* to remove shadow below navbar 
+.navbar-inner {
+	@include box-shadow(none !important);
+	border: 0;
+}
+*/
+
+/* padding between body and footer */
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		Color: $gray;
+	}
+
+}
